@@ -1,0 +1,15 @@
+p{
+  font-size: 25px;
+  line-height: 1.6;
+  font-family: sans-serif ;
+}
+.ans{
+  font-size: 23px;
+  line-height: 1.6;
+  font-family: sans-serif ;
+}
+ .navbar-dark .navbar-nav .nav-link{
+  color: rgb(255 255 255);
+  font-size: 20px;
+  font-weight: 400;
+}

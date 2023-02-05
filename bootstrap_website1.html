@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="bootstrap_website1.css">
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+
+  <title>Bootstrap</title>
+</head>
+
+<body>
+
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark "
+    style="background-color: #301E67;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="vignannirula.jpg"
+          alt=""></a>
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"
+        id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"
+              href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Infrastructure</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#"
+              id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">CSE</a></li>
+              <li><a class="dropdown-item" href="#">IT</a></li>
+              <li><a class="dropdown-item" href="#">ECE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"
+              href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search"
+            placeholder="Search" aria-label="Search">
+          <button class="btn text-white "
+            type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Carousel -->
+  
+  <div class="custom-slider">
+    <div id="carouselExampleCaptions" class="carousel slide"
+      data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img 
+            src="https://media.istockphoto.com/id/1430393066/photo/creative-startup-and-team-webinar-on-laptop-for-professional-internet-communication-in-office.jpg?b=1&s=170667a&w=0&k=20&c=ZFARMVi3O6BgLuzkBlsUDEx09zILGmP2gh9aSNJJoBk="
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first
+              slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img 
+            src="https://media.istockphoto.com/id/1010636762/photo/people-waiting-for-baggage-at-airport-terminal.jpg?b=1&s=170667a&w=0&k=20&c=Fl9dW1pT3yZ8gybPRJ-8V_CSsnrzOR9EUdLa4Z6pXsI="
+            class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second
+              slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img 
+            src="https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bc01c83c3da0425e9baa6c7a9204af81"
+            class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third
+              slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+        <img 
+            src="https://media.istockphoto.com/id/1455914261/photo/merry-go-round-carousel-ride-in-blurred-motion.jpg?b=1&s=170667a&w=0&k=20&c=aWpxOeijnMyByoZzYArXx_4K4pI-k4TZPvmikinU2fw="
+            class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third
+              slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"
+          aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon"
+          aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+
+
+
+  <!-- Tagline -->
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="display-6 text-center mt-5 mb-5">Lorem ipsum dolor
+        sit amet, consectetur adipisicing <br> Reiciendis
+        necessitatibus.</h3>
+    </div>
+  </div>
+  <!-- Features -->
+  <div class="row justify-content-evenly">
+    <div class="col-md-3 text-center">
+      <h1 class="text-primary"><i class="bi bi-file-code-fill"></i>
+      </h1>
+      <h5>Built for developers</h5>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+        elit.Velit odit similique incidunt facilis, optio illo magnam
+        ipsa.</p>
+    </div>
+    <div class="col-md-3 text-center mb-3">
+      <h1 class="text-danger"><i class="bi bi-easel-fill"></i></h1>
+      <h5>Built for developers</h5>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+        elit.Velit odit similique incidunt facilis, optio illo magnam
+        ipsa.</p>
+    </div>
+    <div class="col-md-3 text-center">
+      <h1 class="text-success"><i
+          class="bi bi-calendar-range-fill"></i></h1>
+      <h5>Built for developers</h5>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Velit odit similique incidunt facilis, optio illo magnam ipsa.
+      </p>
+    </div>
+  </div>
+</div>
+</div><hr>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+
+
+
+
+
+  <!-- Growth -->
+  <div class="container-fluid">
+  <div class="row justify-content-evenly pt-3 pb-5">
+    <div class="col-md-5 pt-3">
+      <img src="https://media.istockphoto.com/id/539953664/photo/business-success-with-growing-rising-charts-and-businessman-in-background.jpg?b=1&s=170667a&w=0&k=20&c=-ze4HOi6edzFb9yKfw-ZcL8egE0lFnHoPxtgLKQbUhk=" class="img-fluid p-10 " alt="">
+    </div>
+    <div class="col-md-5 pt-3">
+      <!-- Progress bar -->
+      <h5 class="mt-3">Web Development</h5>
+      <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar"
+          style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
+
+      <h5 class="mt-3">App Development</h5>
+      <div class="progress">
+        <div class="progress-bar bg-info" role="progressbar"
+          style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
+
+      <h5 class="mt-3">Software Development</h5>
+      <div class="progress">
+        <div class="progress-bar bg-warning" role="progressbar"
+          style="width: 65%" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
+
+      <h5 class="mt-3">SEO</h5>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar"
+          style="width: 80%" aria-valuenow="100" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
+
+      <h5 class="mt-3">Marketing</h5>
+      <div class="progress">
+        <div class="progress-bar bg-primary" role="progressbar"
+          style="width: 95%" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div>
+  
+
+
+          <!-- Contact -->
+          <div class="row justify-content-evenly pt-3 pb-5" style="background-color: #f1f1f1;">
+            <div class="col-md-5 mt-5">
+              <h3 class="mb-4">Contact Me</h3>
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label"><h4>Full Name</h4></label>
+                  <input type="text" class="form-control" id="name">
+                  
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"><h4>Email
+                    address</h4></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text"><p>We'll never share your email
+                    with anyone else.</p></div>
+                </div>
+                
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"><h4>Feedback</h4></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1"
+                    rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger"><h4>Submit</h4></button>
+              </form>
+            </div>
+            <div class="col-md-5 mt-5">
+              <h3 class="mb-4">Address</h3>
+              <p>1180 Kimberly Way,<br> WILLISTON PARK <br>New York - 11596 <br><i class="bi bi-telephone-fill"></i>  :  917-772-5081
+              </p>
+              <iframe class="pt-5"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7658.712540503281!2d80.44184505!3d16.3047305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a754524a4b8fd%3A0x6d347eaf429ce539!2sArundelpet%2C%20Guntur%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1675523283783!5m2!1sen!2sin"
+                 height="250" style="width: 100%;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          
+
+
+          <!-- FAQ -->
+          <div class="row justify-content-evenly pt-5 pb-5">
+            <div class="col-md-10">
+              <h3 class="text-center pb-4">FAQ</h3>
+              <div class="accordion accordion-flush border" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                   <b><p>I don't know anything about Coding, is this batch good for me?</p></b>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p class="ans">Yes, this course will cover all important concepts from basic till
+                      advanced. So, there is no need to know anything about coding
+                      beforehand.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo"><b><p>
+                      Do I need to be a Computer Science student to take up this course?</p></b>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     <p class="ans">Anyone, from any background or field of study, can take up this course
+                      and learn DSA.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                     <b><p>Can I do this course with my college classes?
+                    </p></b></button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     <p class="ans">Yes, it is a self-paced course and can be done along with college
+                      classes.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+
+
+
+
+        <!-- Footer -->
+        <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+          <div class="col-md-3 pt-4 pb-4">
+            <h3 class="pb-3">Apna College</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptates minus eveniet, dicta eius, commodi consequatur quia illum temporibus explicabo libero magnam veritatis.</p>
+          </div>
+          <div class="col-md-3 pt-4 pb-4">
+            <h3 class="pb-3">Connect With Us</h3>
+            <p class="ans"><i class="bi bi-youtube h3 px-2"></i>  Youtube</p>
+            <p class="ans"><i class="bi bi-facebook h3 px-2"></i>  Facebook</p>
+            <p class="ans"><i class="bi bi-instagram h3 px-2"></i>  Instagram</p>
+            <p class="ans"><i class="bi bi-twitter h3 px-2"></i>  Twwiter</p>
+            <p class="ans"><i class="bi bi-linkedin h3 px-2"></i>  Linkedin</p>
+          </div>
+          <div class="col-md-3 pt-4 pb-4">
+            <h3 class="pb-3">Get In Touch</h3>
+            <p class="ans"><i class="bi bi-envelope-fill h3 px-2"></i> hello@apnacollege.in</p>
+          </div>
+        </div>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
